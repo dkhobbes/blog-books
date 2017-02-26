@@ -1,0 +1,285 @@
+@import 'reset';
+
+
+
+#eyebrow-nav {
+  height: 40px;
+  max-width: 100%;
+  background-color: rgba(142, 40, 0, 1.0);
+  padding-right: 15px;
+}
+
+#main-nav {
+  padding: 30px;
+  height: 30px;
+  max-width: 100%;
+  background-color: rgba(249, 237, 223, 1.0);
+}
+
+#logo {
+  height: 35px;
+  width: 35px;
+  // margin: 0px 10px 0 10px;
+  // border-radius: 25px;
+  background-image: url('images/book-logo.jpg');
+  // background-size: cover;
+  float: left;
+  // background-color: white;
+  border: 1px solid black;
+}
+
+#main-nav ul {
+  float: left;
+}
+
+#main-nav li {
+  float: left;
+  color: black;
+}
+
+#home-pic {
+  background-image: url('images/book-blog-intro.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#home-pic-title {
+  background-color: rgb(200,70,70);
+  padding: 10px;
+  height: 190px;
+  width: 80px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 120px;
+  color: white;
+}
+
+#intro-main{
+  border-radius: 25px;
+  width: 78%;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-left: 10%;
+}
+
+#intro-main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+#intro-main p {
+  padding-bottom: 20px;
+}
+#intro-main h1, p {
+  text-align: center;
+}
+
+section {
+  height: 250px;
+  width: 100%;
+  display: block;
+  margin:0 auto;
+}
+
+#spacing {
+  height: 150px;
+  // text-align: center;
+  // font-weight: bold;
+  // font-size: 36px;
+}
+
+#archive-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.tabs {
+  float: left;
+  width: 38%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 25px 25px 0 0;
+}
+
+.tabs-one {
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.tabs-img {
+  background-image: url('images/book-blog-intro.jpg');
+  background-size: cover;
+}
+
+.tabs-img-1 {
+  background-image: url('images/blog-photo-1.jpg');
+  background-size: cover;
+}
+
+.tabs-img-2 {
+  background-image: url('images/blog-photo-2.jpg');
+  background-size: cover;
+}
+
+.tabs-img-3 {
+  background-image: url('images/blog-photo-3.jpg');
+  background-size: cover;
+}
+
+.tabs-img-4 {
+  background-image: url('images/blog-photo-7.jpg');
+  background-size: cover;
+}
+
+.tabs-img-5 {
+  background-image: url('images/blog-photo-5.jpg');
+  background-size: cover;
+}
+
+.tabs-img-6 {
+  background-image: url('images/blog-photo-6.jpg');
+  background-size: cover;
+}
+
+.tabs-bottom {
+  float: left;
+  width: 38%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 0 0 25px 25px;
+  margin-bottom: 25px;
+  background-color: rgba(249, 237, 223, 1.0);
+}
+
+header ul li {
+  float: right;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgba(130, 69, 66, 1.0);
+  height: 40px;
+  max-width: 100%;
+}
+
+footer p {
+  padding: 10px 0 0 25px;
+  color: white;
+}
+
+#newsletter-main {
+  width: 100%;
+  height: 200px;
+  margin-top: 25px;
+  background-color: rgba(249, 237, 223, 1.0);
+}
+
+#newsletter-main h1, input, button  {
+  margin-top: 100px;
+  float: left;
+  padding: 0 10px 0 10px;
+}
+
+#newsletter-main button {
+  margin-left: 10px;
+}
+
+#newsletter-main h1 {
+  margin-left: 38%;
+}
+
+#read-more-main {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#archive-main {
+  border-radius: 25px;
+  width: 79%;
+  height: 80px;
+  margin-top: 50px;
+  border: none;
+  margin-left: 10%;
+}
+
+#archive-main h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 38%;
+  padding-top: 30px;
+  font-size: 24px;
+  text-align: center;
+  float: left;
+}
+
+#archive-main-list {
+  padding-top: 25px;
+}
+
+#archive-main-list li {
+  float: left;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#read-title-main {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.blog-pic-title {
+  background-color: rgb(200,70,70);
+  padding: 10px;
+  height: 40px;
+  width: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.blog-pic-title:hover {
+  height: 45px;
+  width: 60px;
+}
+
+.blog-post {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.blog-post p {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.blog-post h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.blog-post-end {
+  padding-bottom: 25px;
+}
