@@ -27,64 +27,37 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </div>
         </header>
         <div id="archive-title">Popular Section</div>
+        <section id="spacing">
+          <div id="intro-main">
+          <h1>Welcome to the most Popular sections</h1>
+          <p>Read the from the recent blog posts on some of the most interesting stories, and characters out there.</p>
+          </div>
+        </section>
         <section>
-          <ReactRouter.Link to={'/PostOne'}>
-            <div className="tabs tabs-one tabs-img-1">
+          <ReactRouter.Link to={'/PopularCommented'}>
+            <div className="tabs-popular tabs-one-popular tabs-img-1">
               <div className="blog-pic-title">one</div>
             </div>
           </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostTwo'}>
-            <div className="tabs tabs-img-2">
+          <ReactRouter.Link to={'/PopularShared'}>
+            <div className="tabs-popular tabs-two-popular tabs-img-2">
               <div className="blog-pic-title">two</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
-        </section>
-
-        <section>
-          <ReactRouter.Link to={'/PostThree'}>
-            <div className="tabs tabs-one tabs-img-3">
+          <ReactRouter.Link to={'/PopularViewed'}>
+            <div className="tabs-popular tabs-img-3">
               <div className="blog-pic-title">three</div>
             </div>
           </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostFour'}>
-            <div className="tabs tabs-img-4">
-              <div className="blog-pic-title">four</div>
-            </div>
-          </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
-        </section>
-
-        <section>
-          <ReactRouter.Link to={'/PostFive'}>
-            <div className="tabs tabs-one tabs-img-5">
-              <div className="blog-pic-title">five</div>
-            </div>
-          </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostSix'}>
-            <div className="tabs tabs-img-6">
-              <div className="blog-pic-title">six</div>
-            </div>
-          </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
-        </section>
-
-        <section>
-          <ReactRouter.Link to={'/PostThree'}>
-            <div className="tabs tabs-one tabs-img-3">
-              <div className="blog-pic-title">three</div>
-            </div>
-          </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostFour'}>
-            <div className="tabs tabs-img-4">
-              <div className="blog-pic-title">four</div>
-            </div>
-          </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom-popular tabs-one-popular">
+            <h1 className="center-blog-info">Most Commented</h1>
+          </div>
+          <div className="tabs-bottom-popular tabs-two-popular">
+            <h1 className="center-blog-info">Most Shared</h1>
+          </div>
+          <div className="tabs-bottom-popular">
+            <h1 className="center-blog-info">Most Viewed</h1>
+          </div>
         </section>
 
         <div id="spacing"></div>

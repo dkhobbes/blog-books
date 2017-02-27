@@ -1986,13 +1986,31 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "section",
+            { id: "spacing" },
+            React.createElement(
+              "div",
+              { id: "intro-main" },
+              React.createElement(
+                "h1",
+                null,
+                "Welcome to the most Popular sections"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Read the from the recent blog posts on some of the most interesting stories, and characters out there."
+              )
+            )
+          ),
+          React.createElement(
+            "section",
             null,
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostOne' },
+              { to: '/PopularCommented' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-one tabs-img-1" },
+                { className: "tabs-popular tabs-one-popular tabs-img-1" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -2002,10 +2020,10 @@ if (window.BlogTest === undefined) {
             ),
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostTwo' },
+              { to: '/PopularShared' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-img-2" },
+                { className: "tabs-popular tabs-two-popular tabs-img-2" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -2013,18 +2031,12 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
-          ),
-          React.createElement(
-            "section",
-            null,
             React.createElement(
               ReactRouter.Link,
-              { to: '/PostThree' },
+              { to: '/PopularViewed' },
               React.createElement(
                 "div",
-                { className: "tabs tabs-one tabs-img-3" },
+                { className: "tabs-popular tabs-img-3" },
                 React.createElement(
                   "div",
                   { className: "blog-pic-title" },
@@ -2033,84 +2045,32 @@ if (window.BlogTest === undefined) {
               )
             ),
             React.createElement(
-              ReactRouter.Link,
-              { to: '/PostFour' },
+              "div",
+              { className: "tabs-bottom-popular tabs-one-popular" },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-4" },
-                React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "four"
-                )
-              )
-            ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
-          ),
-          React.createElement(
-            "section",
-            null,
-            React.createElement(
-              ReactRouter.Link,
-              { to: '/PostFive' },
-              React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-5" },
-                React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "five"
-                )
+                "h1",
+                { className: "center-blog-info" },
+                "Most Commented"
               )
             ),
             React.createElement(
-              ReactRouter.Link,
-              { to: '/PostSix' },
+              "div",
+              { className: "tabs-bottom-popular tabs-two-popular" },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-6" },
-                React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "six"
-                )
-              )
-            ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
-          ),
-          React.createElement(
-            "section",
-            null,
-            React.createElement(
-              ReactRouter.Link,
-              { to: '/PostThree' },
-              React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-3" },
-                React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "three"
-                )
+                "h1",
+                { className: "center-blog-info" },
+                "Most Shared"
               )
             ),
             React.createElement(
-              ReactRouter.Link,
-              { to: '/PostFour' },
+              "div",
+              { className: "tabs-bottom-popular" },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-4" },
-                React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "four"
-                )
+                "h1",
+                { className: "center-blog-info" },
+                "Most Viewed"
               )
-            ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            )
           ),
           React.createElement("div", { id: "spacing" }),
           React.createElement(

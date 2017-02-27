@@ -119,6 +119,33 @@ section {
   border-radius: 25px 25px 0 0;
 }
 
+.tabs-popular {
+  float: left;
+  width: 25%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 25px 25px 0 0;
+}
+
+.tabs-bottom-popular {
+    float: left;
+    width: 25%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 25px;
+    background-color: rgba(249, 237, 223, 1.0);
+}
+
+.tabs-one-popular {
+  margin-left: 10%;
+  margin-right: 1%;
+}
+
+.tabs-two-popular {
+  margin-right: 1%;
+}
+
 .tabs-one {
   margin-left: 10%;
   margin-right: 2%;
