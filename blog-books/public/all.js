@@ -60,7 +60,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -342,7 +342,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -380,7 +380,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-1" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -496,7 +496,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -534,7 +534,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-2" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -650,7 +650,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -688,7 +688,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-3" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -804,7 +804,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -842,7 +842,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-4" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -958,7 +958,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -996,7 +996,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-5" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -1112,7 +1112,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -1150,7 +1150,7 @@ if (window.BlogTest === undefined) {
           ),
           React.createElement(
             "div",
-            { id: "home-pic" },
+            { className: "other-pics tabs-img-6" },
             React.createElement(
               "div",
               { id: "home-pic-title" },
@@ -1257,7 +1257,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -1661,7 +1661,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -1943,7 +1943,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -2193,7 +2193,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,
@@ -2475,7 +2475,7 @@ if (window.BlogTest === undefined) {
             React.createElement(
               "div",
               { id: "main-nav" },
-              React.createElement("div", { id: "logo" }),
+              React.createElement("div", { className: "logo" }),
               React.createElement(
                 "ul",
                 null,

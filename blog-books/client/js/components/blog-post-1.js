@@ -16,7 +16,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
         </div>
         <div id="main-nav">
-          <div id="logo"></div>
+          <div className="logo"></div>
           <ul>
           <li>New releases</li>
           <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
@@ -26,7 +26,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <div id="home-pic">
+        <div className="other-pics tabs-img-1">
           <div id="home-pic-title">Book Blog</div>
         </div>
         <div className="blog-post">

@@ -16,16 +16,13 @@
   background-color: rgba(249, 237, 223, 1.0);
 }
 
-#logo {
+.logo {
   height: 35px;
   width: 35px;
-  // margin: 0px 10px 0 10px;
-  // border-radius: 25px;
-  background-image: url('images/book-logo.jpg');
-  // background-size: cover;
+  margin: 0px 10px 0 10px;
+  background-image: url('images/book-logo.png');
+  background-size: cover;
   float: left;
-  // background-color: white;
-  border: 1px solid black;
 }
 
 #main-nav ul {
@@ -40,6 +37,15 @@
 #home-pic {
   background-image: url('images/book-blog-intro.jpg');
   background-size: cover;
+  height: 400px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.other-pics {
   height: 400px;
   width: 70%;
   display: block;
