@@ -26,10 +26,10 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <div id="archive-title">Popular Section</div>
+        <div id="archive-title">Welcome to the most Popular sections</div>
         <section id="spacing">
           <div id="intro-main">
-          <h1>Welcome to the most Popular sections</h1>
+          <h1>Most Viewed, Most Shared, and Most Commented</h1>
           <p>Read the from the recent blog posts on some of the most interesting stories, and characters out there.</p>
           </div>
         </section>

@@ -38,8 +38,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">two</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom tabs-one">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
+          <div className="tabs-bottom">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
         </section>
 
         <section>
@@ -53,8 +57,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">four</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom tabs-one">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
+          <div className="tabs-bottom">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
         </section>
 
         <section>
@@ -68,8 +76,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">six</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom tabs-one">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
+          <div className="tabs-bottom">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
         </section>
 
         <section>
@@ -83,8 +95,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">four</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom tabs-one">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
+          <div className="tabs-bottom">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
         </section>
 
         <section>
@@ -98,8 +114,12 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
               <div className="blog-pic-title">six</div>
             </div>
           </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
+          <div className="tabs-bottom tabs-one">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
+          <div className="tabs-bottom">
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+          </div>
         </section>
         <div id="spacing"></div>
 
