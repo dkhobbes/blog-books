@@ -1,6 +1,6 @@
 if (window.BlogTest === undefined) {window.BlogTest = {}; }
 (function() {
-  class ArchiveComponent extends React.Component {
+  class PopularMainComponent extends React.Component {
     constructor() {
       super();
     }
@@ -18,15 +18,15 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         <div id="main-nav">
           <div id="logo"></div>
           <ul>
-          <li>New releases</li>
-          <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
-          <li>Categories</li>
-          <li>Recent Posts</li>
-          <li>Author Interviews</li>
+            <li>New releases</li>
+            <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
+            <li>Categories</li>
+            <li>Recent Posts</li>
+            <li>Author Interviews</li>
           </ul>
           </div>
         </header>
-        <div id="archive-title">Full list of Archives</div>
+        <div id="archive-title">Popular Section</div>
         <section>
           <ReactRouter.Link to={'/PostOne'}>
             <div className="tabs tabs-one tabs-img-1">
@@ -87,20 +87,6 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <div className="tabs-bottom"></div>
         </section>
 
-        <section>
-          <ReactRouter.Link to={'/PostFive'}>
-            <div className="tabs tabs-one tabs-img-5">
-              <div className="blog-pic-title">five</div>
-            </div>
-          </ReactRouter.Link>
-          <ReactRouter.Link to={'/PostSix'}>
-            <div className="tabs tabs-img-6">
-              <div className="blog-pic-title">six</div>
-            </div>
-          </ReactRouter.Link>
-          <div className="tabs-bottom tabs-one"></div>
-          <div className="tabs-bottom"></div>
-        </section>
         <div id="spacing"></div>
 
         <footer>
@@ -110,5 +96,5 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
     }
   }
 
-  BlogTest.ArchiveComponent = ArchiveComponent;
+  BlogTest.PopularMainComponent = PopularMainComponent;
 })();

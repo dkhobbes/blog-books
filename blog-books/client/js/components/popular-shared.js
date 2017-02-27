@@ -1,6 +1,6 @@
 if (window.BlogTest === undefined) {window.BlogTest = {}; }
 (function() {
-  class ArchiveComponent extends React.Component {
+  class PopularSharedComponent extends React.Component {
     constructor() {
       super();
     }
@@ -26,7 +26,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <div id="archive-title">Full list of Archives</div>
+        <div id="archive-title">Popular Shared</div>
         <section>
           <ReactRouter.Link to={'/PostOne'}>
             <div className="tabs tabs-one tabs-img-1">
@@ -110,5 +110,5 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
     }
   }
 
-  BlogTest.ArchiveComponent = ArchiveComponent;
+  BlogTest.PopularSharedComponent = PopularSharedComponent;
 })();

@@ -17,11 +17,11 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
         <div id="main-nav">
           <div id="logo"></div>
           <ul>
-            <li>New releases</li>
-            <li>Popular</li>
-            <li>Categories</li>
-            <li>Recent Posts</li>
-            <li>Author Interviews</li>
+          <li>New releases</li>
+          <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
+          <li>Categories</li>
+          <li>Recent Posts</li>
+          <li>Author Interviews</li>
           </ul>
           </div>
         </header>
@@ -51,10 +51,10 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
           <div className="tabs-bottom">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
         </section>
 
@@ -70,10 +70,10 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
           <div className="tabs-bottom">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
         </section>
 
@@ -89,10 +89,10 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
           <div className="tabs-bottom">
-            <h1>11/15/16 | Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
         </section>
 

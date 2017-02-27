@@ -18,11 +18,11 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <div id="main-nav">
             <div id="logo"></div>
             <ul>
-              <li>New releases</li>
-              <li>Popular</li>
-              <li>Categories</li>
-              <li>Recent Posts</li>
-              <li>Author Interviews</li>
+            <li>New releases</li>
+            <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
+            <li>Categories</li>
+            <li>Recent Posts</li>
+            <li>Author Interviews</li>
             </ul>
             </div>
           </header>

@@ -279,4 +279,11 @@ footer p {
 .blog-post-end {
   padding-bottom: 25px; }
 
+.center-blog-info {
+  margin-top: 15px;
+  text-align: center; }
+
+.white {
+  color: red; }
+
 /*# sourceMappingURL=style.css.map */
