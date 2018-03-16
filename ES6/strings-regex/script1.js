@@ -1,4 +1,4 @@
 let text = "œ";
 
-console.log(text.lengeth);
+console.log(text.length);
 console.log(/^.$/.test(text));

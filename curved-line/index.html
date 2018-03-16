@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+<style>
+  text {
+    font: 64px Spectral;
+    letter-spacing: 0.08em;
+    fill: #444;
+  }
+
+  line, path {
+    stroke-width: 1px;
+    fill: none;
+  }
+
+  circle {
+    fill: #f0f;
+  }
+
+  .edge, .clipped {
+    stroke: #999;
+  }
+
+  .original {
+    stroke: #444;
+    fill: #f9f9f9;
+  }
+
+  .longest,
+  #centerline {
+    stroke: #f0f;
+    stroke-width: 3px;
+    stroke-dasharray: 6,6;
+  }
+</style>
+<svg width="960" height="500">
+  <path class="original" d="M290.417,20L298.097,20.387L310.968,20.667L320.606,20.971L327.647,20.697L331.188,21.04L342.434,21.185L354.406,21.061L369.682,21.376L390.428,21.587L396.579,21.453L401.791,21.538L425.94,20.948L437.336,20.428L438.24,43.697L439.155,67.325L440.1,87.711L440.478,96.99L441.145,115.841L441.751,133.843L442.18,149.952L442.911,163.167L457.624,175.097L478.697,191.949L494.201,204.255L508.215,215.383L528.879,231.482L535.777,236.956L550.176,248.075L566.204,260.333L577.086,268.669L599.148,285.357L614.024,296.529L626.359,305.705L644.079,318.79L656.377,327.824L673.333,340.205L674.602,347.117L676.256,348.019L678.466,351.504L682.238,353.699L683.989,356.975L684.662,359.466L687.445,362.342L687.772,366.003L689.783,366.021L693.388,368.089L695.201,369.583L697.387,370.091L699.376,372.157L699.868,374.429L698.706,374.94L695.59,379.484L694.25,379.861L692.938,381.834L689.339,383.916L688.733,385.064L689.077,388.378L685.808,393.957L687.556,396.782L686.609,397.851L688.195,401.784L688.24,403.536L689.209,405.334L688.131,406.077L688.034,408.048L688.803,409.872L688.172,411.009L689.174,412.859L687.896,414.129L685.728,418.444L685.664,419.943L681.957,421.57L683.327,425.078L682.299,427.048L684.875,428.35L685.62,433.898L684.9,437.427L686.966,440.241L689.296,440.451L690.978,439.761L694.224,440.202L695.978,444.205L696.985,445.542L697.234,448.819L694.953,452.029L695.437,453.756L691.795,455.835L688.517,455.827L687.365,457.03L664.506,462.312L640.712,467.682L610.501,474.27L583.255,480L582.314,475.793L581.589,474.256L580.74,473.12L579.704,472.529L578.131,472.58L577.969,471.938L578.779,471.004L580.512,471.599L580.761,472.365L582.485,474.973L582.929,476.205L583.814,475.392L582.87,473.793L582.813,472.851L582.088,471.911L580.019,470.794L580.076,470.172L578.54,470.403L577.406,471.466L576.573,471.838L576.412,468.602L576.144,467.538L574.73,464.869L575.684,463.913L575.796,462.272L574.319,456.728L573.673,455.198L573.088,454.624L571.673,450.959L569.658,448.147L562.463,439.984L558.421,437.475L555.673,435.039L551.99,433.138L550.008,430.991L547.795,429.502L545.262,428.097L543.048,427.503L540.852,426.229L535.642,421.724L532.868,420.505L531.462,420.682L531.252,422.036L530.486,421.548L529.866,420.113L528.473,420.506L527.56,421.959L527.915,423.149L526.707,423.524L524.328,422.853L523.971,422.391L521.814,422.241L521.026,420.638L522.269,418.891L522.338,417.317L519.63,411.645L517.823,409.213L515.06,407.352L513.921,407.318L512.295,407.714L509.458,407.783L509.295,408.197L506.382,408.314L504.925,408.93L503.996,410.15L501.936,408.516L498.316,408.255L496.53,407.523L495.207,407.266L493.867,406.445L492.897,406.406L491.625,405.712L490.443,405.476L489.967,405.807L487.076,403.852L486.071,403.716L484.03,400.143L483.534,398.223L482.604,397.266L481.996,397.413L480.496,396.564L479.048,395.141L478.178,395.252L476.454,393.543L475.437,392.829L474.379,392.67L473.627,392.122L471.822,391.619L470.659,390.691L470.129,390.865L468.364,390.511L465.407,391.147L464.591,391.98L463.526,391.926L461.167,391.021L459.294,391.154L457.346,391.735L455.473,390.441L453.966,390.377L451.679,389.183L450.55,389.12L448.243,389.434L446.442,388.79L444.824,388.992L439.703,389.254L434.157,390.322L432.949,390.797L432.152,390.44L430.464,386.846L428.416,385.894L427.55,385.285L425.71,385.386L425.062,384.878L424.557,383.725L426.18,378.886L426.269,377.583L424.631,374.882L425.425,371.761L425.521,369.779L424.459,368.726L424.254,367.921L423.057,367.321L424.198,362.533L424.511,360.781L424.579,358.806L423.898,355.493L422.461,354.837L421.297,353.793L419.495,353.678L418.859,354.566L417.784,353.639L415.309,352.485L414.169,351.451L413.27,350.152L413.328,348.946L414.411,346.036L415.91,345.712L415.019,344.163L414.408,343.977L414.188,342.243L413.487,340.86L412.609,340.104L411.044,340.238L410.321,339.728L408.59,339.562L404.532,335.136L403.291,332.579L402.777,332.368L401.677,330.777L400.629,331.026L399.735,330.262L397.563,329.464L395.664,326.992L395.281,324.433L394.687,323.333L392.625,321.601L391.034,319.756L389.481,318.348L388.339,313.554L387.649,312.504L385.198,311.68L384.132,310.158L384.051,309.473L383.08,308.466L382.585,307.032L380.632,304.555L378.547,302.789L375.718,300.98L375.253,301.086L374.23,300.249L373.829,299.086L372.688,298.206L371.796,297.011L371.445,293.477L370.992,291.544L369.741,288.111L369.903,287.111L370.493,286.514L370.207,284.647L369.434,284.731L368.466,283.973L369.574,282.217L370.078,280.754L371.503,281.674L372.095,282.609L372.792,282.347L374.072,280.926L375.011,278.548L375.439,275.196L375.962,272.418L375.381,270.936L373.15,266.395L371.331,264.33L370.075,263.875L368.607,265.025L366.742,264.654L366.584,265.235L365.167,265.341L363.375,264.993L361.487,263.929L359.342,261.825L357.533,259.839L356.465,257.974L355.39,256.971L354.167,256.869L354.23,256.06L353.379,255.281L352.999,254.112L351.946,253.715L351.621,253.085L351.096,250.218L351.427,249.403L351.85,244.909L351.415,244.154L350.151,241.05L349.983,239.115L349.44,238.123L347.961,237.878L347.217,236.385L347.456,234.933L347.303,233.51L347.927,232.937L348.224,231.663L348.29,229.798L347.598,225.505L347.552,224.084L349.578,222.915L351.313,222.643L352.503,223.645L352.69,224.982L353.78,226.654L353.466,227.395L352.296,227.612L352.458,229.246L352.959,230.335L352.606,231.5L353.386,231.713L352.972,232.847L353.576,233.413L354.674,233.588L355.894,234.213L357.501,234.487L358.213,235.706L359.786,236.301L360.416,237.656L362.33,238.144L363.657,240.257L364.413,240.572L366.069,240.442L365.537,239.454L365.142,237.957L363.929,237.863L363.316,237.151L363.025,235.936L361.866,234.137L361.236,229.923L360.108,228.151L359.231,228.209L357.78,227.035L357.373,226.037L357.896,225.779L359.315,226.022L359.13,225.283L358.272,225.435L356.555,225.032L354.694,224.083L354.821,222.998L356.108,221.686L355.793,220.13L354.842,217.905L353.442,218.112L351.696,216.71L350.953,215.115L352.187,215.526L352.297,214.832L353.676,213.989L353.424,212.776L354.592,213.202L356.024,212.849L356.881,212.179L356.939,211.485L357.94,210.693L358.818,210.547L360.394,211.066L361.071,212.046L361.867,212.265L364.424,211.081L367.43,210.679L369.94,211.246L371.911,211.412L373.879,212.291L376.122,212.655L377.205,212.455L378.294,212.857L379.567,212.948L379.897,212.537L378.985,211.671L379.731,211.2L380.274,209.277L382.071,208.999L382.755,208.501L383.708,208.853L383.608,210.289L382.232,210.344L381.789,211.211L382.849,212.494L383.65,211.957L383.874,210.304L384.211,210.131L387.668,212.217L387.416,211.136L385.01,210.205L384.122,208.598L381.962,208.2L381.298,208.847L379.919,208.847L379.581,210.374L379.196,210.903L377.551,211.962L376.569,211.921L375.881,211.286L376.084,210.404L377.756,209.539L377.347,209.106L375.187,210.333L373.524,209.867L372.12,210.636L370.8,210.845L371.123,209.563L368.693,209.758L367.008,208.602L368.125,208.004L367.573,206.7L365.458,206.874L364.926,207.459L364.673,208.502L362.909,210.49L362.551,211.359L361.463,211.292L360.469,210.242L358.953,210.19L357.107,209.75L355.989,208.092L352.311,205.86L351.76,206.805L348.786,208.2L348.963,209.572L348.024,212.491L350.018,213.461L348.524,214.821L348.982,216.199L348.08,217.026L349.129,217.469L349.2,217.998L350.565,219.149L349.367,219.879L349.123,218.904L348.235,218.561L348.215,219.598L349.032,220.236L349.317,221.607L349.035,221.936L347.055,222.345L345.319,220.382L344.258,219.518L343.507,219.299L342.571,218.239L341.522,217.844L340.576,218.191L339.375,217.988L338.586,216.524L337.374,215.743L336.786,214.389L335.82,213.286L332.548,211.552L331.999,211.393L330.358,211.831L329.007,213.349L328.3,212.999L329.324,210.663L330.999,206.025L330.993,205.02L330.446,204.123L330.467,203.34L329.403,201.805L329.718,201.406L331.955,204.517L333.227,206.712L334.086,207.734L334.793,207.725L333.367,205.548L331.608,202.535L330.349,201.453L330.157,200.025L329.12,198.603L328.092,197.71L327.442,197.728L326.812,198.504L326.321,197.194L326.637,196.036L325.97,193.824L325.018,192.369L324.438,190.955L322.86,189.46L319.777,187.85L319.041,186.939L316.634,185.008L316.481,184.059L314.294,181.261L313.837,180.086L313.12,179.086L310.957,176.605L309.802,176.071L309.296,174.809L308.248,173.667L307.206,173.115L305.227,170.926L304.706,169.795L302.938,167.701L301.84,165.657L302.502,165.45L303.355,164.038L303.976,162.223L303.799,160.703L302.925,157.091L302.336,156.587L302.447,155.814L301.295,154.081L300.575,150.39L300.115,149.928L300.364,149.031L300.091,147.742L299.425,146.598L299.907,141.944L300.653,139.726L301.818,137.156L301.863,136.237L301.274,134.623L301.387,131.812L301.098,130.036L300.666,129.061L300.113,128.754L299.682,126.629L299.729,125.604L299.201,123.153L298.256,122.601L297.28,121.527L296.511,119.472L295.627,118.646L294.839,116.773L294.049,116.012L292.932,114.334L291.255,113.142L291.081,111.122L290.102,109.662L287.604,108.481L286.411,106.723L285.121,105.744L282.91,103.719L281.383,101.883L282.065,99.168L281.522,97.91L281.544,96.345L280.471,94.46L280.132,93.107L280.661,92.103L281.127,90.018L282.577,86.829L283.671,84.991L284.111,83.637L285.588,81.14L286.941,78.407L287.241,78.831L286.604,79.858L286.102,81.241L286.994,81.59L287.754,81.171L287.59,79.458L288.238,79.108L288.835,76.974L289.343,76.378L291.279,76.278L292.552,75.486L292.703,74.388L292.1,73.885L291.471,74.167L290.828,73.57L290.199,73.649L289.574,75.285L288.691,76.407L288.434,77.229L287.529,78.51L287.206,78.042L289.395,74.279L291.109,70.14L292.1,66.438L292.116,65.185L290.887,64.256L290.475,62.38L290.474,60.497L291.178,60.247L291.935,58.534L293.33,53.497L293.742,51.039L294.631,46.628L294.094,42.565L294.61,41.747L293.438,40.411L293.52,38.714L292.335,35.757L292.414,35.032L291.791,32.325L290.814,31.798L290.336,32.139L289.288,31.008L288.247,30.3L289.336,28.617L289.94,26.912L290.745,21.759L290.417,20Z"/>
+</svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://unpkg.com/simplify-js@1.2.3/simplify.js"></script>
+<script src="dijkstra.js"></script>
+<script>
+const svg = d3.select("svg").append("g");
+
+// Chaining to illustrate the steps
+Promise.resolve(drawPerimeter(document.querySelector("path")))
+  .then(drawVoronoi)
+  .then(clipVoronoi)
+  .then(findCenterline)
+  .then(simplifyCenterline)
+  .then(addLabel)
+  .then(animate);
+
+// Turn an arbitrary path into a polygon of evenly-spaced points
+function drawPerimeter(path) {
+  // More points = more precision + more compute time
+  const numPoints = 90;
+
+  const length = path.getTotalLength();
+
+  const polygon = d3
+    .range(numPoints)
+    .map(i => path.getPointAtLength(length * i / numPoints))
+    .map(d => [d.x, d.y]);
+
+  const dots = svg
+    .selectAll("circle")
+    .data(polygon)
+    .enter()
+    .append("circle")
+    .call(drawCircle);
+
+  return polygon;
+}
+
+// Get the voronoi edges for the perimeter points
+function drawVoronoi(polygon) {
+  const [x0, x1] = d3.extent(polygon.map(d => d[0])),
+    [y0, y1] = d3.extent(polygon.map(d => d[1]));
+
+  const voronoi = d3.voronoi().extent([[x0 - 1, y0 - 1], [x1 + 1, y1 + 1]])(polygon);
+
+  const edges = voronoi.edges.filter(edge => {
+    if (edge && edge.right) {
+      const inside = edge.map(point => d3.polygonContains(polygon, point));
+      if (inside[0] === inside[1]) {
+        return inside[0];
+      }
+      if (inside[1]) {
+        edge.reverse();
+      }
+      return true;
+    }
+    return false;
+  });
+
+  svg
+    .selectAll(".edge")
+    .data(edges)
+    .enter()
+    .append("line")
+    .attr("class", "edge")
+    .call(drawLineSegment);
+
+  return { polygon, edges };
+}
+
+// Clip the Voronoi edges to the polygon
+function clipVoronoi({ polygon, edges }) {
+  edges.forEach(edge => {
+    const [start, end] = edge;
+
+    const { intersection, distance } = polygon.reduce((best, point, i) => {
+      const intersection = findIntersection(start, end, point, polygon[i + 1] || polygon[0]);
+      if (intersection) {
+        const distance = distanceBetween(start, intersection);
+        if (!best.distance || distance < best.distance) {
+          return { intersection, distance };
+        }
+      }
+      return best;
+    }, {});
+
+    if (intersection) {
+      edge[1] = intersection;
+      edge.distance = distance;
+      edge[1].clipped = true;
+    } else {
+      edge.distance = distanceBetween(start, end);
+    }
+  });
+
+  svg
+    .selectAll(".clipped")
+    .data(edges)
+    .enter()
+    .append("line")
+    .attr("class", "clipped")
+    .call(drawLineSegment);
+
+  return edges;
+}
+
+// Construct a graph of the clipped edges
+// For each pair of points, use Dijkstra's algorithm to find the shortest path
+// We want the "longest shortest path" as the centerline
+function findCenterline(edges) {
+  const nodes = [];
+
+  // Create links between Voronoi nodes in the least efficient way possible
+  edges.forEach(edge => {
+    edge.forEach((node, i) => {
+      if (!i || !node.clipped) {
+        const match = nodes.find(d => d === node);
+        if (match) {
+          return (node.id = match.id);
+        }
+      }
+      node.id = nodes.length.toString();
+      node.links = {};
+      nodes.push(node);
+    });
+    edge[0].links[edge[1].id] = edge.distance;
+    edge[1].links[edge[0].id] = edge.distance;
+  });
+
+  const graph = new Graph();
+
+  nodes.forEach(node => {
+    graph.addNode(node.id, node.links);
+  });
+
+  const perimeterNodes = nodes.filter(d => d.clipped);
+
+  const longestShortest = perimeterNodes
+    .reduce((totalBest, start, i) => {
+      // Check all nodes above index i to avoid doubling up
+      const path = perimeterNodes.slice(i + 1).reduce((nodeBest, node) => {
+        const path = graph.path(node.id, start.id, { cost: true });
+        if (!nodeBest.cost || path.cost > nodeBest.cost) {
+          return path;
+        }
+        return nodeBest;
+      }, {});
+
+      if (!totalBest.cost || path.cost > totalBest.cost) {
+        return path;
+      }
+      return totalBest;
+    }, {})
+    .path.map(id => nodes[+id]);
+
+  svg
+    .append("path")
+    .attr("class", "longest")
+    .attr("d", d3.line()(longestShortest));
+
+  return longestShortest;
+}
+
+// Simplify the centerline and smooth it with a basis spline
+// Check a few tangents near the middle to guess orientation
+// If the line is going generally right-to-left, flip it
+function simplifyCenterline(centerline) {
+  centerline = simplify(centerline.map(d => ({ x: d[0], y: d[1] })), 12).map(d => [d.x, d.y]);
+
+  const smoothLine = d3.line().curve(d3.curveBasis);
+
+  svg
+    .append("path")
+    .attr("id", "centerline")
+    .attr("d", smoothLine(centerline))
+    .each(function(d) {
+      // Try to pick the right text orientation based on whether
+      // the middle of the centerline is rtl or ltr
+      const len = this.getTotalLength(),
+        tangents = [
+          tangentAt(this, len / 2),
+          tangentAt(this, len / 2 - 50),
+          tangentAt(this, len + 50)
+        ];
+
+      if (tangents.filter(t => Math.abs(t) > 90).length > tangents.length / 2) {
+        centerline.reverse();
+      }
+    })
+    .attr("d", smoothLine(centerline));
+}
+
+// Draw a label at the middle of the smoothed centerline
+function addLabel() {
+  svg
+    .append("text")
+    .attr("dy", "0.35em")
+    .append("textPath")
+    .attr("xlink:href", "#centerline")
+    .attr("startOffset", "50%")
+    .attr("text-anchor", "middle")
+    .text("CALIFORNIA");
+}
+
+// Cycling through the layers for illustration purposes
+function animate() {
+  const steps = [
+    null,
+    "circle",
+    "circle, .edge",
+    ".clipped",
+    ".clipped, .longest",
+    ".longest",
+    "#centerline",
+    "#centerline, text",
+    "text"
+  ];
+
+  advance();
+  function advance() {
+    svg.selectAll("path, circle, line, text").style("display", "none");
+
+    if (steps[0]) {
+      svg.selectAll(steps[0]).style("display", "block");
+    }
+
+    steps.push(steps.shift());
+
+    setTimeout(advance, steps[0] ? 750 : 2000);
+  }
+}
+
+function drawCircle(sel) {
+  sel
+    .attr("cx", d => d[0])
+    .attr("cy", d => d[1])
+    .attr("r", 2.5);
+}
+
+function drawLineSegment(sel) {
+  sel
+    .attr("x1", d => d[0][0])
+    .attr("x2", d => d[1][0])
+    .attr("y1", d => d[0][1])
+    .attr("y2", d => d[1][1]);
+}
+
+// From https://github.com/Turfjs/turf-line-slice-at-intersection
+function findIntersection(a1, a2, b1, b2) {
+  const uaT = (b2[0] - b1[0]) * (a1[1] - b1[1]) - (b2[1] - b1[1]) * (a1[0] - b1[0]),
+    ubT = (a2[0] - a1[0]) * (a1[1] - b1[1]) - (a2[1] - a1[1]) * (a1[0] - b1[0]),
+    uB = (b2[1] - b1[1]) * (a2[0] - a1[0]) - (b2[0] - b1[0]) * (a2[1] - a1[1]);
+
+  if (uB !== 0) {
+    const ua = uaT / uB,
+      ub = ubT / uB;
+    if (ua > 0 && ua < 1 && ub > 0 && ub < 1) {
+      return [a1[0] + ua * (a2[0] - a1[0]), a1[1] + ua * (a2[1] - a1[1])];
+    }
+  }
+}
+
+function tangentAt(el, len) {
+  const a = el.getPointAtLength(Math.max(len - 0.01, 0)),
+    b = el.getPointAtLength(len + 0.01);
+
+  return Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI;
+}
+
+function distanceBetween(a, b) {
+  const dx = a[0] - b[0],
+    dy = a[1] - b[1];
+
+  return Math.sqrt(dx * dx + dy * dy);
+}
+</script>
