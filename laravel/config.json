@@ -1,0 +1,11 @@
+{
+  "host": "laravel-testing.test",
+  "ip-address": "127.0.0.1",
+  "http_port": "80",
+  "https_port": "443",
+  "mysql_port": "3306",
+  "root_pass": "M3ldsJ90fp5Av",
+  "mysql_db_name": "laravel",
+  "mysql_user": "user",
+  "mysql_pass": "password"
+}
