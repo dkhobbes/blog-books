@@ -1,41 +1,42 @@
 version: '2'
 
 services:
-  db:
-    image: mysql:5.7
-    expose:
-      - '3306'
-    ports: '3306:3306'
-    volumes:
-      - wp_laravel_db_data:/var/lib/mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: user
-      MYSQL_PASSWORd: password
-    php:
-      build:
-        context:
-        dockerfile: Dockerfile
-      depends_on:
-        -db
-      volumes:
-        - ./www:/var/www
-      ports:
-        - "80:80"
-      restart: always
-      tty: true
-    phpmyadmin:
-      links:
-        - db:mysql
-      depends_on:
-        - db
-        - php
-      image: phpmyadmin/phpmyadmin:latest
-      ports:
-        - "8080:80"
-      environment:
-        MYSQL_ROOT_PASSWORD: password
-    volumes:
-      wp_galderma_db_data:
+   db:
+     image: mysql:5.7
+     expose:
+       - '3306'
+     ports:
+       - '3306:3306'
+     volumes:
+       - wp_laravel_db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: password
+       MYSQL_DATABASE: laravel
+       MYSQL_USER: user
+       MYSQL_PASSWORD: password
+   php:
+     build:
+       context: .
+       dockerfile: Dockerfile
+     depends_on:
+       - db
+     volumes:
+       - ./www:/var/www/
+     ports:
+       - "80:80"
+     restart: always
+     tty: true
+   phpmyadmin:
+     links:
+       - db:mysql
+     depends_on:
+       - db
+       - php
+     image: phpmyadmin/phpmyadmin:latest
+     ports:
+       - "8080:80"
+     environment:
+       MYSQL_ROOT_PASSWORD: password
+volumes:
+  wp_laravel_db_data:
