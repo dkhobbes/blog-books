@@ -38,7 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5 testing</div>
+                <h4>sandbox environment</h4>
             </div>
         </div>
     </body>
