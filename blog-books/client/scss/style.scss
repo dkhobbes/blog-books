@@ -298,8 +298,8 @@ footer p {
 }
 
 .blog-pic-title:hover {
-  height: 45px;
-  width: 60px;
+  height: 55px;
+  transition: width 2s;
 }
 
 .blog-post {

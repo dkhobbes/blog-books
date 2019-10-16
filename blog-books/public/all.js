@@ -130,8 +130,36 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            React.createElement(
+              "div",
+              { className: "tabs-bottom tabs-one" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs-bottom" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            )
           ),
           React.createElement(
             "section",
@@ -162,8 +190,36 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            React.createElement(
+              "div",
+              { className: "tabs-bottom tabs-one" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs-bottom" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            )
           ),
           React.createElement(
             "section",
@@ -194,8 +250,36 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            React.createElement(
+              "div",
+              { className: "tabs-bottom tabs-one" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs-bottom" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            )
           ),
           React.createElement(
             "section",
@@ -226,8 +310,36 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            React.createElement(
+              "div",
+              { className: "tabs-bottom tabs-one" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs-bottom" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            )
           ),
           React.createElement(
             "section",
@@ -258,8 +370,36 @@ if (window.BlogTest === undefined) {
                 )
               )
             ),
-            React.createElement("div", { className: "tabs-bottom tabs-one" }),
-            React.createElement("div", { className: "tabs-bottom" })
+            React.createElement(
+              "div",
+              { className: "tabs-bottom tabs-one" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "tabs-bottom" },
+              React.createElement(
+                "h1",
+                { className: "center-blog-info" },
+                "11/15/16 ",
+                React.createElement(
+                  "span",
+                  { className: "white" },
+                  " | "
+                ),
+                " Review of Javascript Web Applications"
+              )
+            )
           ),
           React.createElement("div", { id: "spacing" }),
           React.createElement(
